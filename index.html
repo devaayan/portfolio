@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="#home">
+            <div class="Left ">
+                <a href="#" class="hover-scale">
+                    <p> Aayan</p>
+                </a>
+            </div>
+            <div class="Center">
+                <ul>
+                    <li>
+                        <a href="#home" class="hover-underline hover-scale hover-gradient-text">
+                            Home
+                    </li>
+                    </a>
+                    <li>
+                        <a href="#About-Me" class="hover-underline hover-scale">
+                            About Me
+                    </li>
+                    </a>
+                    <li>
+                        <a href="#my-services" class="hover-underline hover-scale">
+                            Services
+                    </li>
+                    </a>
+                    <li>
+                        <a href="#contact-us" class="hover-underline hover-scale">
+                            Contact
+                    </li>
+                    </a>
+
+                </ul>
+            </div>
+            <div class="Right">
+                <div class="btn hover-gradient hover-scale hover-shadow media-size-btn">
+                    <a href="https://github.com/devaayan" target="_blank">My GitHub Profile </a>
+                </div>
+
+            </div>
+            <div class="hamburger">
+                <img id="hamburger-icon" src="assets/icons/menu.png" alt="menu" class="inverted">
+            </div>
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#About-Me">About Me</a></li>
+                    <li><a href="#my-services">Services</a></li>
+                    <li><a href="#contact-us">Contact</a></li>
+                    <li><a href="https://github.com/devaayan" target="_blank">My Github</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+
+
+    <main>
+        <div class="profile-image">
+            <img src="assets/images/profile.jpg" class="circle-img" alt="profile image"></img>
+        </div>
+        <div class="content ">
+            <h1 class="gradient-text">Hi, I'm Aayan Mundhekar,</h1>
+            <p>I’m a developer passionate about creating complete web and mobile experiences.</p>
+            <span id="typed-text"></span>
+        </div>
+        <div class="buttons">
+            <button class="btn"><a href="#contact-us">Connect with Me</a></button>
+            <button class="btn-resume hover-gradient">My resume</button>
+        </div>
+    </main>
+    <section class="about-me">
+        <h1 id="About-Me">About me</h1>
+        <div class="image-content">
+            <div class="left-img">
+                <img src="assets/images/profile.jpg" alt="" srcset="">
+            </div>
+            <div class="right-info" style="color: white;">
+                <p>
+                    <span class="golden"> I’m Aayan Mundhekar </span>— a frontend developer with a strong
+                    foundation in building responsive and
+                    interactive web interfaces. I've completed a 6-month internship in web development and built
+                    real-world
+                    projects like a Tesla clone, Spotify UI, and a weather app using APIs.</br><span> I'm now expanding
+                        into
+                        backend
+                        technologies, aiming to grow as a full-stack developer. I learn by building and believe in
+                        improving
+                        every day.</span>
+                    <span id="typed-text-2" class="golden">“I don’t just build websites — I build experiences.”</span>
+                </p>
+                <div class="skills-container">
+                    <div class="skill">
+                        <span class="label">HTML & CSS</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 95%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span class="label">React JS</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 55%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span class="label">JavaScript</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span class="label">Next JS</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="label">Tailwind CSS</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+    <section class="my-services" id="my-services">
+        <h1>
+            My Services
+        </h1>
+        <div class="container">
+            <div class="box">
+                <h4>01</h4>
+                <p class="golden"> Responsive Web Development</p>
+                <h3>I create fully responsive websites using HTML, CSS, and JavaScript that work seamlessly across all
+                    devices.</h3>
+
+            </div>
+            <div class="box">
+                <h4>02</h4>
+                <p class="golden"> Frontend Development</p>
+                <h3>I build clean, user-friendly interfaces using modern technologies like React.js and Tailwind CSS.
+                </h3>
+
+            </div>
+            <div class="box">
+                <h4>03</h4>
+                <p class="golden">UI Cloning & Prototyping</p>
+                <h3>I can replicate complex UI designs (e.g., Spotify, Tesla) to pixel perfection, useful for practice
+                    or client requests.</h3>
+
+            </div>
+            <div class="box">
+                <h4>04</h4>
+                <p class="golden"> Portfolio & Personal Website Design</p>
+                <h3>I help individuals and developers build beautiful personal portfolios, optimized for performance and
+                    design.</h3>
+
+            </div>
+            <div class="box">
+                <h4>05</h4>
+                <p class="golden"> Bug Fixing & Code Cleanup</p>
+                <h3>Got messy code or a small bug? I’ll clean it up, optimize it, and make it work as expected.</h3>
+
+            </div>
+            <div class="box">
+                <h4>06</h4>
+                <p class="golden"> Landing Page Development
+                <h3>I create modern, fast-loading landing pages designed to convert — using pure HTML/CSS or React.</h3>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="contact-us" id="contact-us">
+        <h1> Get in Touch </h1>
+        <div class="mail">
+            <div class="left-side">
+                <h2 class="gradient-text">Let's Talk</h2>
+                <p>I'm currently avaliable to take on new projects, so feel free to send me a message about anything
+                    that you want me to work on. You can contact anytime.</p>
+                <div class="mail-icon ">
+                    <img src="assets/icons/envelope-solid.svg" class="inverted icon-size" alt="">
+                    <p>mundhekaraayan@gmail.com</p>
+                </div>
+                <div class="contact">
+                    <img src="assets/icons/phone-volume-solid.svg" class="inverted icon-size" alt="">
+                    <p>+91 &nbsp;7972593106</p>
+                </div>
+                <div class="location">
+                    <img src="assets/icons/location-dot-solid.svg" class="inverted icon-size" alt="">
+                    <p>Pune, Maharashtra India</p>
+                </div>
+            </div>
+            <div class="right-side">
+                <p>Your Name </p>
+                <input placeholder="Enter your Name" class="name"></input>
+                <p>Your Email </p>
+                <input placeholder="Enter your email" type="email" class="email"></input>
+                <p>Write your message here </p>
+                <div class="center-msg">
+                    <textarea name="message" rows="8" placeholder="Enter your message" class="msg"></textarea>
+                    <button class="btn-resume submit-now btn-update">Submit now</button>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+
+
+
+
+
+
+    </section>
+    <footer>
+        <div class="ruler"></div>
+        <div class="foot-info">
+            <p>&copy;2025 Aayan Mundhekar. All rights reserved.</p>
+            <ul>
+                <li>Term of Services</li>
+
+                <li>Privacy Policy</li>
+
+                <li> Connect with me</li>
+            </ul>
+
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
