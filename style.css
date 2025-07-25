@@ -362,6 +362,12 @@ main {
     background: linear-gradient(90deg, #a21aff, #f59e0b);
 }
 
+.link-handle a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
 /* My services */
 
 .my-services {
@@ -627,6 +633,7 @@ main {
     .content {
         width: 80vw;
     }
+    
 
     .about-me {
         margin-top: 150px;
