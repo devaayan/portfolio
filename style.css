@@ -206,7 +206,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+    /* margin: 100px; */
 }
 
 .circle-img {
@@ -575,6 +575,7 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
     .image-content {
@@ -715,7 +716,7 @@ main {
     }
 
     .right-info {
-        width: 100vw;
+        width: 90%;
         font-size: 24px;
 
 
@@ -734,6 +735,7 @@ main {
         margin-top: 20px;
         display: flex;
         justify-content: center;
+        width: 100%;
     }
 
     .btn {
@@ -766,7 +768,7 @@ main {
     }
 
     .left-side {
-        width: 100vw;
+        width: 100%;
     }
 
     .my-services h1 {
